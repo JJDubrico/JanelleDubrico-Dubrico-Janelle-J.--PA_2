@@ -7,14 +7,14 @@
     
     X = np.random.random([5,5]) # Generate a random 5 x 5 ndarray
     
-    y = X.mean()
-    z = X.std() # Calculate the mean and standard deviation
+    y = X.mean() # Calculate the standard deviation
+    z = X.std() # Calculate the standard deviation
     
     X_normalized = (X - y) / z # Normalize the array
     np.save('X_normalized.npy', X_normalized) # Save the result to a .npy file    
     
-    print("Original Array:\n", X)
-    print("\nNormalized Array:\n", X_normalized) # Display the original and normalized arrays
+    print("Original Array:\n", X) # Display the original arrays
+    print("\nNormalized Array:\n", X_normalized) # Display the normalized arrays
 
 
   # 2.) DIVISIBLE BY 3 PROBLEM:
