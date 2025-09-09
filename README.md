@@ -7,7 +7,7 @@
     
     X = np.random.random([5,5]) # Generate a random 5 x 5 ndarray
     
-    y = X.mean() # Calculate the standard deviation
+    y = X.mean() # Calculate the mean
     z = X.std() # Calculate the standard deviation
     
     X_normalized = (X - y) / z # Normalize the array
