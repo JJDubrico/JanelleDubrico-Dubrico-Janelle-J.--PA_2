@@ -20,7 +20,7 @@
 
   # 2.) DIVISIBLE BY 3 PROBLEM:
 
-**We form a 10x10 array containing the squares of the numbers 1 through 100 in row-major order. Then we filter this array to keep only the elements divisible by 3 and save that result to div_by_3.npy.**
+**The problem askes to form a 10x10 array containing the squares of the numbers 1 through 100 in row-major order. Then, we filter this array to keep only the elements divisible by 3 and save that result to div_by_3.npy.**
 
     import numpy as np # Imports the NumPy Library
 
