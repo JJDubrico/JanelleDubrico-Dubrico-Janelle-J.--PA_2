@@ -30,7 +30,7 @@
     
     np.save('div_by_3.npy', divisible_by_3) # Saves the result to a .npy file
     
-    print("Squares Array:\n", squares)
-    print("Elements Divisible by 3:\n", divisible_by_3) # Displays the results for verification
+    print("Squares Array:\n", squares) # Displays the squares array
+    print("Elements Divisible by 3:\n", divisible_by_3) # Displays the elements that are divisible by 3
     
 --VERSION 2--
